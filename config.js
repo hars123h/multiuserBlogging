@@ -10,7 +10,7 @@ export const API = publicRuntimeConfig.PRODUCTION
 export const APP_NAME = publicRuntimeConfig.APP_NAME;
 
 export const DOMAIN = publicRuntimeConfig.PRODUCTION
-? publicRuntimeConfigDOMAIN_PRODUCTION
+? publicRuntimeConfig.DOMAIN_PRODUCTION
 : publicRuntimeConfig.DOMAIN_DEVELOPMENT;
 
 
